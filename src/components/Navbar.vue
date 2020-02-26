@@ -2,10 +2,10 @@
   <div>
     <v-app-bar
       absolute
-      color="deep-purple accent-4"
+      color="blue darken-3"
       dark
       prominent
-      shrink-on-scroll=""
+      scroll-target="#scrolling-techniques"
     >
       <v-toolbar-title></v-toolbar-title>
 
@@ -13,10 +13,11 @@
 
       <div class="profil">
         <v-badge
-          color="green"
-          content="6"
+          class="badge"
+          color="red"
+          content="9+"
         >
-          <v-avatar color="blue" size="42">
+          <v-avatar color="light-green" size="42">
             
             <v-icon dark>mdi-account-circle</v-icon>
             
