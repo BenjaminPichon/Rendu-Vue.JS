@@ -5,7 +5,6 @@
       color="blue darken-3"
       dark
       prominent
-      scroll-target="#scrolling-techniques"
     >
       <v-toolbar-title></v-toolbar-title>
 
@@ -13,7 +12,6 @@
 
       <div class="profil">
         <v-badge
-          class="badge"
           color="red"
           content="9+"
         >
