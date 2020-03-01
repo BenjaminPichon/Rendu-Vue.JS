@@ -2,10 +2,8 @@
   <v-app>
     <Navbar></Navbar>
     <Profil class="btn-profil"></Profil>
-    <hr class="separation" width="50%">
     <h2 class="partieTitle">Top de la semaine</h2>
     <Carousel class="pos-carousel"></Carousel>
-    <hr class="separation" width="50%">
     <h2 class="partieTitle">Fil d'actualité</h2>
     <Actu class="posActu"></Actu>
   </v-app>
@@ -41,6 +39,8 @@ export default {
     }
     .pos-carousel{
       margin-left: 12.5%;
+
+
     }
     .separation{
       margin-top: 10%;
@@ -53,6 +53,7 @@ export default {
       margin-bottom: 5%;
       font-size: 200%;
       color: darkred;
+      margin-top: 5%;
     }
     .posActu{
       text-align: center;
